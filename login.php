@@ -1,4 +1,4 @@
-<?php
+    <?php
 // Initialize the session
 session_start();
  
@@ -91,6 +91,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Iclassroom-Login</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in</title>
@@ -128,7 +129,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
 
-
+<script src="i_classroom.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
